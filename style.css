@@ -1,0 +1,124 @@
+h1 {
+	font-family: 'Anton', cursive;
+	color:#007580;
+}
+h2	{
+	font-family: 'Anton', cursive;
+	color: #007580;
+}
+h3	{
+	font-family: 'Montserrat', sans-serif;
+	text-align: left ;
+	color: #007580;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+p 	{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a 	{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #007580;
+}
+
+@media	(max-width: 500px) { 
+	.container	{
+		width: 250px;
+	}
+}
+
+@media	(max-width: 900px) { 
+	.container	{
+		width: 300px;
+	}
+}
+
+
+
+li { 
+	list-style: none;
+	font-size: 32px; 
+	display: inline;
+	margin: 12px;
+}
+
+img {
+	width: 170px;
+	height: 180px;
+	border-radius:50%;
+}
+
+
+.card-white {
+	background-color: rgba(255, 255, 255, .7);
+	border-radius:6px;
+	border: solid 1px white;
+	margin:30px;
+	padding:16px;
+	text-align:center;
+}
+
+ul {
+	padding: 0px;
+}
+
+/*Custom design*/
+
+/*classes*/
+
+.btn-turquoise { 
+	background-color: #007580; 
+	color: white;
+	padding: 10PX 14px;
+	border-radius: 6px;
+	font-weight: bolder;
+	margin: 24px;
+	text-align:center;
+}
+
+
+.btn-turquoise:hover { 
+	background-color: white;
+	transition: 0.5s;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, .7);
+	border-radius:6px;
+	border: solid 1px white;
+	margin:30px;
+	padding:16px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+body { 
+	background-image:url("image/mer.jpg");
+	background-size: cover;
+	
+	}
+
+#card-img{
+	background-image: url("");
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+#card-gradient {
+	color: white;
+	background-color: linear-gradient(-220deg, #9ED2C6 0%, #54BAB9 75%);
+}
+
+
+
